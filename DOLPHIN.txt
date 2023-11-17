@@ -1,0 +1,101 @@
+HTML CODE:-
+
+
+<!DOCTYPE html>
+<html>
+  <head> 
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </head>
+  <body>
+      <div class="bg-container">
+          <div class="d-flex flex-row justify-content-end">
+               <h1 class="heading">HOME</h1>
+                  <h1 class="heading"> CATALOG</h1>
+                  <h1 class="heading"> ABOUT</h1>
+                </div>
+              <div class="d-flex flex-row justify-content-end ">
+              <img src="https://i.ibb.co/ZL8Z6Pj/Screenshot-38.png" class="app"/>
+              <img src="https://i.ibb.co/QJD1MfN/Screenshot-37.png" class="app"/>
+              <img src="https://i.ibb.co/L0CX1xc/Screenshot-39.png" class="app"/>
+              
+              </div>
+          
+          <div>
+          <p class="paragraph">WELCOME D.DOLPHIN FASHIONS</p>
+          <img src="https://i.ibb.co/r4M5sPY/Screenshot-34.png" class="image"/>
+          <img src="https://i.ibb.co/gT3QZZB/Screenshot-27.png" class="jewlery-image"/>
+          </div>
+          <div class="d-flex flex-row">
+          <img src="https://i.ibb.co/XjmgzmK/Screenshot-22.png" class="neck-image"/>
+          <img src="https://i.ibb.co/RQNvRyT/Screenshot-21.png" class="neckless"/>
+          </div>
+          <div class="d-flex flex-row">
+              <img src="https://i.ibb.co/CwYDbTS/Screenshot-25.png" class="diamond-chain"/>
+              <img src="https://i.ibb.co/Hgr8jxt/Screenshot-20.png" class="diamond-chain"/>
+          </div>
+          
+          <p class="para">Collection is live</p>
+          </div>
+     
+
+  </body>
+</html>
+
+
+
+
+CSS CODE:-
+.bg-container{
+    background-color:#d9dbda;
+    height:200vh;
+    margin:3px;
+}
+.app{
+    width:9vw;
+    margin:9px;
+}
+.paragraph {
+    font-family:"bree serif";
+    font-size:30px;
+    padding-left:5px;
+    font-weight:bold;
+    color:blue;
+}
+.heading{
+    text-align:end;
+    font-size:22px;
+    font-family:Caveat;
+}
+.image{
+    height:25vh;
+    width:29vw;
+    padding-top:2px;
+    padding-left:3px;
+}
+.jewlery-image{
+    width:95vw;
+    height:40vh;
+}
+.neck-image{
+    height:50vh;
+    width:30vw;
+}
+.neckless{
+    height:50vh;
+    width:65vw;
+}
+.diamond-chain{
+    height:50vh;
+    width:50vw;
+    padding:2px;
+}
+.para{
+    text-align:center;
+    font-family:Caveat;
+    font-weight:bold;
+    font-size:42px;
+}
+
